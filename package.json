@@ -1,6 +1,6 @@
 {
   "name": "@d-ai/magpie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "D.AI (dai.itbug.shop) models in magpie and OpenCode: one ddsk_ API key, chat models from the public catalog, per-key usage",
   "type": "module",
   "main": "./index.mjs",
