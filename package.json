@@ -1,0 +1,34 @@
+{
+  "name": "@d-ai/magpie",
+  "version": "0.1.0",
+  "description": "D.AI (dai.itbug.shop) models in magpie and OpenCode: one ddsk_ API key, chat models from the public catalog, per-key usage",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "magpie-plugin",
+    "dai",
+    "d-ai"
+  ],
+  "license": "MIT",
+  "homepage": "https://dai.itbug.shop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdddj/d-ai-magpie.git"
+  },
+  "magpie": {
+    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0iZGFpLWNsb3VkLXRpdGxlIGRhaS1jbG91ZC1kZXNjIj4KICA8dGl0bGUgaWQ9ImRhaS1jbG91ZC10aXRsZSI+RC5BSSBjbG91ZCBtYXNjb3Q8L3RpdGxlPgogIDxkZXNjIGlkPSJkYWktY2xvdWQtZGVzYyI+QSBmcmllbmRseSByb3VuZGVkIGNsb3VkIGNoYXJhY3RlciBvbiBhIGJsYWNrIHNxdWlyY2xlLjwvZGVzYz4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjM4IiBmaWxsPSIjMDAwMDAwIiAvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExLjUgOCkgc2NhbGUoLjgyKSI+CiAgICA8cGF0aCBmaWxsPSIjRjVGNUY1IiBkPSJNMjcgMTI0QzE2LjUgMTI0IDggMTE1LjUgOCAxMDVDOCA5NS4zIDE1LjMgODcuMyAyNC43IDg2LjFDMjUuMSA2My4xIDQwIDQ0IDU4LjQgNDRDNzIuMSA0NCA4My45IDUyLjIgODkuMSA2NEMxMDUuNyA2NC4xIDExOSA3Ny41IDExOSA5NEMxMTkgMTEwLjYgMTA1LjYgMTI0IDg5IDEyNEgyN1oiIC8+CiAgICA8Y2lyY2xlIGN4PSI1MSIgY3k9IjkwIiByPSI1IiBmaWxsPSIjMDAwMDAwIiAvPgogICAgPGNpcmNsZSBjeD0iNzgiIGN5PSI5MCIgcj0iNSIgZmlsbD0iIzAwMDAwMCIgLz4KICA8L2c+Cjwvc3ZnPgo="
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
